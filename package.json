@@ -19,7 +19,7 @@
     "standard": "*"
   },
   "scripts": {
-    "pretest": "./node_modules/.bin/standard --fix index.js bin/fuzz-get",
+    "pretest": "./node_modules/.bin/standard --fix index.js bin/fuzz-get test/*.js",
     "test": "tap test/*.js"
   },
   "repository": {
