@@ -15,9 +15,11 @@
     "xtend": "~2.2.0"
   },
   "devDependencies": {
-    "tap": "~0.4.8"
+    "tap": "~0.4.8",
+    "standard": "*"
   },
   "scripts": {
+    "pretest": "./node_modules/.bin/standard --fix index.js bin/fuzz-get",
     "test": "tap test/*.js"
   },
   "repository": {
