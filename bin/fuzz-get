@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var http = require('http')
+const http = require('http')
 const url = require('url')
 const fuzzer = require('../')
 const xtend = require('xtend')
